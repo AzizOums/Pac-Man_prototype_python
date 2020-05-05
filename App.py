@@ -1,9 +1,8 @@
 import sys, pygame, time
 from pygame.locals import *
-from modele.pacman import Game
+from modele.game import *
 from modele.direction import up, down, left, right
 from modele.map import size, scale
-from modele.color import *
 
 pygame.init()
 clock = pygame.time.Clock()
